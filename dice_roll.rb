@@ -6,5 +6,7 @@ def roll
   rand(1..6)
 end
 
+def roll_with_array
 rolls[1, 2, 3, 4, 5, 6]
-random_number = rolls[]
+random_number = rolls[rand(rolls.length)]
+end
