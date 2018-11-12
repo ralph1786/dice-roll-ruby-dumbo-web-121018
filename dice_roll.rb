@@ -7,4 +7,4 @@ def roll
 end
 
 rolls[1, 2, 3, 4, 5, 6]
-random_number = rolls
+random_number = rolls[]
