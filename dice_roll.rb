@@ -7,6 +7,7 @@ def roll
 end
 
 def roll_with_array
-rolls[1, 2, 3, 4, 5, 6]
-random_number = rolls[rand(rolls.length)]
+  rolls[1, 2, 3, 4, 5, 6]
+  random_number = rolls[rand(rolls.length)]
+  return random_number
 end
